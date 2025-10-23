@@ -16,7 +16,7 @@ A common approach of solving the ABA problem is to use versioning or tagging. Th
 
 ## Q2:
 
-Current implementation of both my lock and lock-free queues do not work. I did not have enough time to debug them. Will fix and evaluate performance on my own time.
+Current implementation of both my lock and lock-free queues do not work. I believe the queues are properly implemented but having issues with Goroutines queueing and enqueueing at the same time. I did not have enough time to debug them. Will fix and evaluate performance on my own time.
  
 ### Libraries Used:
 - `"fmt"`: For input and output operations.
